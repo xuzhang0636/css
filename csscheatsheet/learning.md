@@ -60,3 +60,12 @@ p{
     margin:5px 10px;
 }
 ```
+
+## Positioning in CSS
+
+- Static
+- Relative
+- Absolute
+- Fixed
+- Initial
+- Inherit
