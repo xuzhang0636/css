@@ -7,9 +7,32 @@ body {
   /* same as above
  font: normal 16px Arial, Helvetica, sans-serif; */
 
- line-height: 1.6em;
+  line-height: 1.6em;
+  margin: 0;
 }
 
-.box-1{
-  
+.container {
+  /* 可以根据浏览器的缩小变大进行自动适应，所以可以用百分比 */
+  width: 80%;
+  /* center */
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  /* same as above
+  border:5px red solid; */
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+
+  padding: 20px;
+
+  margin:20px 0px; 
 }
